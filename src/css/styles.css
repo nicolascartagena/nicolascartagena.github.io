@@ -46,11 +46,11 @@ main #skills {
     width: 100%;
     margin: auto;
     text-align: center;
-    background-color: #CFD8DC;
+    background-color: #393B3E;
 }
 
 main #skills h2 {
-    color: rgba(33,37,41,1);
+    color: white;
 }
 
 main #skills .habilities {
