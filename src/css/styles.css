@@ -1,4 +1,70 @@
+:root {
+    /* Colores */
+    --color-primary: #A0EAA2;
+    --color-text: #265087;
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: var(--color-primary);
+    width: 100%;
+}
+
+header .nav {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+header .nav .nav__icon {
+    margin-left: 15px;
+}
+
+header .nav .nav__button {
+    margin-right: 15px;
+}
+
+header .nav .nav__button button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.7rem;
+    color: var(--color-text);
+}
+
+header .nav__navbar {
+    width: 100%;
+    height: auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+header .nav__navbar nav {
+    margin-bottom: 10px;
+}
+
+header .nav__navbar nav ul {
+    list-style: none;
+}
+
+header .nav__navbar nav ul li a {
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.5rem;
 }
